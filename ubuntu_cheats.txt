@@ -1,0 +1,7 @@
+Day 2 Ubuntu Commands:
+cd           # Go to home directory
+cd ..        # Go up one directory
+cd -         # Go back to previous directory
+cd /path     # Go to absolute path
+cd folder    # Go to relative path
+cd ~/folder  # Go to subfolder in home directory
