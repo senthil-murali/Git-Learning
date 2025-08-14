@@ -5,3 +5,5 @@ cd -         # Go back to previous directory
 cd /path     # Go to absolute path
 cd folder    # Go to relative path
 cd ~/folder  # Go to subfolder in home directory
+alias gs='git status'
+apt search vscode #find packages with name before installing
