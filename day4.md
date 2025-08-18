@@ -30,3 +30,22 @@ git checkout master
 git merge feature-idea
 git log --oneline --graph --all
 
+
+## Day 4 Summary (2025-08-17)
+- Created a feature branch, committed changes, merged to master.
+- Practiced the stage → commit cycle and used \`git status\` to track states.
+- Resolved an intentional merge conflict to understand conflict markers and fixes.
+- Pushed repo to GitHub (origin/master set).
+
+**Key commands I used**
+\`\`\`bash
+git checkout -b <branch>
+git add <file> && git commit -m "msg"
+git merge <branch>
+git status
+git log --oneline --graph --all
+\`\`\`
+
+**Notes**
+Conflicts happen when the same lines differ across branches.
+Edit between \`<<<<<<<\`, \`=======\`, \`>>>>>>>\`, then \`git add\` and \`git commit\`.
