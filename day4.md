@@ -1,4 +1,5 @@
-# Day 4 – Branching and Merging in Git (master version)
+
+# Day 4 – Branching and Merging in Git (master  final version)
 
 ## What I Learned Today
 - How to create and switch branches  
@@ -28,3 +29,4 @@ git commit -m "Day 4: Added learning log"
 git checkout master
 git merge feature-idea
 git log --oneline --graph --all
+
