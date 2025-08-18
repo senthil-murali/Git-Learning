@@ -10,3 +10,5 @@ Thumbs.db
 build/
 *.o
 *.out
+
+log/
