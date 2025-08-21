@@ -1,14 +1,17 @@
-# OS junk
-.DS_Store
+#OS JUNK
 Thumbs.db
 
 # Editors
 .vscode/
 .idea/
 
-# Build artifacts
+# Build artifacts (ROS/colcon)
 build/
+install/
+log/
 *.o
 *.out
 
-log/
+# Misc
+*.swp
+*.tmp
